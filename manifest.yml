@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: slackkintai
+  host: slackkintai
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  - Cloudant NoSQL DB-pv
